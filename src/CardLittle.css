@@ -1,0 +1,31 @@
+.cardLittle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 150px;
+}
+.cardLittle img {
+    height: 70px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.cardLittle__info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.cardLittle__time {
+    display: flex;
+}
+
+@media screen and (max-width:800px) {
+    .cardLittle {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding-right: 40vw;
+    }
+}
+
+

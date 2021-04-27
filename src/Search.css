@@ -1,0 +1,33 @@
+.search {
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 40vw;
+    z-index: 100;
+    display: grid;
+}
+.search button {
+    background: #fff;
+    color: #ff385c;
+    border-radius: 0;
+    z-index: 10;
+}
+.search button:hover {
+    background: #ff385c;
+    color: #fff;
+    height: 35px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .search {
+        left: 0;
+        width:400px;
+    }
+}
+@media screen and (max-width:400px) {
+    .search__datePicker {
+        width:360px;
+    }
+}

@@ -1,0 +1,43 @@
+.header img {
+    height: 40px;
+    object-fit: contain;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 2px 5px 7px -7px #000000;
+}
+.header__center {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 999px;
+}
+.header__center input {
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+@media screen and (max-width:600px) {
+    .header__right p {
+        display: none;
+    }
+}

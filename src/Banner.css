@@ -1,0 +1,77 @@
+.banner {
+    background: url("https://a0.muscache.com/im/pictures/ac943446-9b73-41f5-8dbb-7a8bf02f6432.jpg?im_w=1200") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    margin-bottom: 110px;
+}
+.banner__info {
+    padding-top: 170px;
+    padding-left: 70px;
+    background-color: black;
+    width: 450px;
+    color: white;
+    height: 500px;
+}
+.banner__info h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+.banner__info p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner__info button {
+    background-color: #ff385c;
+    color: black;
+    z-index: 10;
+    text-transform: inherit;
+}
+.banner__info button:hover {
+    background-color: white;
+    color: #ff385c;
+}
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+.banner__searchButton {
+    background-color: #fff !important;
+    color: #ff385c !important;
+    text-transform: inherit !important;
+}
+.banner__searchButton:hover {
+    background-color: #fff;
+    color: #ff385c;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .banner {
+        height: 65vh;
+    }
+    .banner__info {
+        width: 340px;
+        padding-top: 110px;
+        height: 400px;
+    }
+    .banner__info h1 {
+        font-size: 38px;
+    }
+}
+/* @media screen and (max-width:800px) {
+    .banner__info {
+        width: 340px;
+        padding-top: 130px;
+        height: 430px;
+    }
+}
+@media screen and (max-width:800px) {
+    .banner__info {
+        width: 340px;
+        height: 390px;
+    }
+} */

@@ -1,0 +1,44 @@
+.home__content {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+.home__liveAnywhere-pics a {
+    text-decoration: none;
+    color: black;
+}
+.home__content::-webkit-scrollbar {
+     width: 0;
+}
+.home__lveAnywhere {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px 30px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.home__lveAnywhere-text {
+    margin-bottom: 20px;
+}
+.home__liveAnywhere-pics {    
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.home__liveAnywhere-pics::-webkit-scrollbar {
+    width: 0;
+}
+.home__lveAnywhere::-webkit-scrollbar {
+    width: 0;
+}
+
+@media screen and (max-width:800px) {
+    .home__content {
+        display: flex;
+        padding-left: 10px;
+    }
+}
